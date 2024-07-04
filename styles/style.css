@@ -4,24 +4,50 @@
  }
  
  h1 {
-     color: red;
+     color: #fff;
      font-style: italic;
      font-weight: lighter;
      font-family: Georgia, 'Times New Roman', Times, serif;
      /* text-decoration: line-through; */
      text-decoration: overline;
      text-align: center;
+     font-family: "Space Grotesk", sans-serif;
  }
  
  #heading-parrent {
-     background-color: rgb(31, 14, 8);
+     /* background-color: rgb(31, 14, 8); */
+     /* background-image: linear-gradient(to top, black, pink); */
+     /* background-image: linear-gradient(30deg, black, pink, green, red, purple, blue, hotpink); */
+     background-image: linear-gradient(45deg, #730654, transparent), url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif/1200px-Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif');
+     background-repeat: no-repeat;
+     /* background-size: cover; */
+     /* background-size: contain; its used for show full image */
+     background-size: cover;
      height: 600px;
      padding: 100px 0;
-     width: 600px;
-     /* margin-left: auto;
-
+     max-width: 1250px;
+     margin-left: auto;
      margin-right: auto;
-
-      */
-     margin: 30px auto;
+     clip-path: polygon(100% 0, 100% 54%, 82% 100%, 0 100%, 0 1%);
  }
+ 
+ .btn-parrent {
+     /* text-align: center;
+ */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+ }
+ 
+ .btn {
+     background-color: tomato;
+     padding: 8px 15px;
+     color: #fff;
+     border: 4px solid yellow;
+     border-radius: 6px;
+     text-align: center;
+     font-family: "Gamja Flower", sans-serif;
+ }
+ /* on inline element we cann't give them height and width but in block element we can give them height and width */
+ /* button and image is a block element but it is special case it can measurement by height and width it act as block element */
