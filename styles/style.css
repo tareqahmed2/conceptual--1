@@ -1,3 +1,27 @@
-h2 {
-    color: red;
-}
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ h1 {
+     color: red;
+     font-style: italic;
+     font-weight: lighter;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     /* text-decoration: line-through; */
+     text-decoration: overline;
+     text-align: center;
+ }
+ 
+ #heading-parrent {
+     background-color: rgb(31, 14, 8);
+     height: 600px;
+     padding: 100px 0;
+     width: 600px;
+     /* margin-left: auto;
+
+     margin-right: auto;
+
+      */
+     margin: 30px auto;
+ }
